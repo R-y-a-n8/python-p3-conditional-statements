@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+!/usr/bin/env python3
+from lib.control_flow import admin_login, hows_the_weather, fizzbuzz, calculator
+
 
 def admin_login(username, password):
     if(username.lower() == "admin" and password == "12345"):
